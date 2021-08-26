@@ -1,0 +1,146 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Contact{% endblock  %}
+{% block content %}
+<!-- Start Page Header -->
+    <div class="page-header" style="background-image:url(images/page-header5.jpg)">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-md-6 col-sm-6 hidden-xs">
+          			<ol class="breadcrumb">
+            			<li><a href="{% url 'index' %}">Home</a></li>
+            			<li class="active">Donate</li>
+          			</ol>
+            	</div>
+            	<div class="col-md-6 col-sm-6 col-xs-12">
+    				<h2>Donate</h2>
+                </div>
+           	</div>
+        </div>
+    </div>
+    <!-- End Page Header -->
+    <div class="double-border"></div>
+    <!-- Start Body Content -->
+  	<div class="main" role="main">
+    	<div id="content" class="content full">
+    		<div class="container">
+            	<div class="row">
+                    <div class="col-md-8">
+                        <h3>We need your financial support in order to make this planet a lively place for all living creatures.</h3>
+                        <p>Together, we can make the world a better place for all beings. Your donation will go to work instantly to help our project targets that are going great for future birth.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel.</p>
+                        <div class="spacer-20"></div>
+                        <h2>Fill the form to donate now!</h2>
+                        <div class="donate-form">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>How much would you like to donate?</label>
+                                        <div class="input-group margin-20">
+                                            <span class="input-group-addon">$</span>
+                                            <select name="donation amount" class="form-control">
+                                                <option value="20">20</option>
+                                                <option value="50">50</option>
+                                                <option value="100">100</option>
+                                                <option value="Custom">100+</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 custom-donate-amount">
+                                        <label>Enter custom donation amount</label>
+                                        <div class="input-group margin-20">
+                                            <span class="input-group-addon">$</span>
+                                            <input type="text" name="Custom Donation Amount" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input type="text" name="fname" class="form-control" placeholder="First name (Required)">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" name="lname" class="form-control" placeholder="Last name">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input type="email" name="email" class="form-control" placeholder="Your email (Required)">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="phone" name="phone" class="form-control" placeholder="Your phone">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <textarea rows="3" cols="5" class="form-control" placeholder="Your Address"></textarea>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <textarea rows="3" cols="5" class="form-control" placeholder="Additional Notes"></textarea>
+                                    </div>
+                                </div>
+                                <input type="submit" name="donate" class="btn btn-primary btn-lg" value="Donate Now">
+                            </form>
+                        </div>
+                    </div>
+                    <!-- Start Sidebar -->
+                    <div class="col-md-4 sidebar right-sidebar">
+                    	<div class="widget sidebar-widget upcoming_events_widget">
+                        	<h3 class="title">Upcoming Events</h3>
+                            <ul class="upcoming-events">
+                                <li>
+                                    <img src="{% static 'images/event_small_thumb1.jpg' %}" alt="" class="img-thumbnail event-thumb">
+                                    <span class="event-date">
+                                        <span class="day">16</span>
+                                        <span class="monthyear">Aug, 14</span>
+                                    </span>
+                                    <div class="event-excerpt">
+                                        <div class="event-cats meta-data"><a href="event-grid.html">Days</a></div>
+                                        <h5 class="event-title"><a href="single-event.html">Australia Day</a></h5>
+                                        <p class="event-location"><i class="fa fa-map-marker"></i> Canberra ACT 2600, Australia</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="{% static 'images/event_small_thumb4.jpg' %}" alt="" class="img-thumbnail event-thumb">
+                                    <span class="event-date">
+                                        <span class="day">20</span>
+                                        <span class="monthyear">Aug, 14</span>
+                                    </span>
+                                    <div class="event-excerpt">
+                                        <div class="event-cats meta-data"><a href="event-grid.html">Volunteers</a></div>
+                                        <h5 class="event-title"><a href="single-event.html">National Volunteer week</a></h5>
+                                        <p class="event-location"><i class="fa fa-map-marker"></i> Parc Orsay, Batiment Sequoia</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="{% static 'images/event_small_thumb2.jpg' %}" alt="" class="img-thumbnail event-thumb">
+                                    <span class="event-date">
+                                        <span class="day">21</span>
+                                        <span class="monthyear">Aug, 14</span>
+                                    </span>
+                                    <div class="event-excerpt">
+                                        <div class="event-cats meta-data"><a href="event-grid.html">Cleanliness</a></div>
+                                        <h5 class="event-title"><a href="single-event.html">Business cleanup day</a></h5>
+                                        <p class="event-location"><i class="fa fa-map-marker"></i> Parc Orsay, Batiment Sequoia</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="{% static 'images/event_small_thumb3.jpg' %}" alt="" class="img-thumbnail event-thumb">
+                                    <span class="event-date">
+                                        <span class="day">22</span>
+                                        <span class="monthyear">Aug, 14</span>
+                                    </span>
+                                    <div class="event-excerpt">
+                                        <div class="event-cats meta-data"><a href="event-grid.html">World</a></div>
+                                        <h5 class="event-title"><a href="single-event.html">World's park day</a></h5>
+                                        <p class="event-location"><i class="fa fa-map-marker"></i> Parc Orsay, Batiment Sequoia</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       	</div>
+   	</div>
+    <!-- End Body Content -->
+{% endblock  %}

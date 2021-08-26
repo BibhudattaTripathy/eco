@@ -1,0 +1,217 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}About{% endblock  %}
+{% block content %}
+<div class="page-header" style="background-image:url(images/slide4.jpg);">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-md-6 col-sm-6 hidden-xs">
+          			<ol class="breadcrumb">
+            			<li><a href="{% url 'index' %}">Home</a></li>
+            			<li class="active">About us</li>
+          			</ol>
+            	</div>
+            	<div class="col-md-6 col-sm-6 col-xs-12">
+    				<h2>About Us</h2>
+                </div>
+           	</div>
+        </div>
+    </div>
+    <!-- End Page Header -->
+    <div class="double-border"></div>
+    <!-- Secondary Header -->
+    <div class="secondary-bar">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-md-12">
+                	<span class="big">Get to know all about us</span>
+                    <ul class="nav nav-pills pull-right">
+                        <li class="active"><a href="#about-mission" class="scrollto">Mission</a></li>
+                        {% comment %} <li><a href="{% url 'contact' %}" class="scrollto">Join us for</a></li>
+                        <li><a href="#about-team" class="scrollto">Team</a></li> {% endcomment %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Start Body Content -->
+  	<div class="main" role="main">
+    	<div id="content" class="content full">
+     		<!-- Mission -->
+            <div id="about-mission">
+                <div class="container">
+                    <h2>Deffination</h2>
+                    <p class="lead">An ecosystem (or ecological system) consists of all the organisms and the physical environment with which they interact.[2]:458 These biotic and abiotic components are linked together through nutrient cycles and energy flows. Energy enters the system through photosynthesis and is incorporated into plant tissue. By feeding on plants and on one another, animals play an important role in the movement of matter and energy through the system. They also influence the quantity of plant and microbial biomass present. By breaking down dead organic matter, decomposers release carbon back to the atmosphere and facilitate nutrient cycling by converting nutrients stored in dead biomass back to a form that can be readily used by plants and microbes.</p>
+                    {% comment %} <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel.</p> {% endcomment %}
+                    <div class="border-cols cols3">
+                        <div>
+                            <h4>External and internal factors</h4>
+                            <p>Ecosystems are controlled by both external and internal factors. External factors, also called state factors, control the overall structure of an ecosystem and the way things work within it, but are not themselves influenced by the ecosystem. On broad geographic scales, climate is the factor that "most strongly determines ecosystem processes and structure".[4]:14 Climate determines the biome in which the ecosystem is embedded. Rainfall patterns and seasonal temperatures influence photosynthesis and thereby determine the amount of energy available to the ecosystem.[8]</p>
+                        </div>
+                        <div>
+                            <h4>Primary production</h4>
+                            <p>Global oceanic and terrestrial phototroph abundance, from September 1997 to August 2000. As an estimate of autotroph biomass, it is only a rough indicator of primary production potential and not an actual estimate of it.
+                               Main article: Primary production
+                               Primary production is the production of organic matter from inorganic carbon sources. This mainly occurs through photosynthesis. The energy incorporated through this process supports life on earth, while the carbon makes up much of the organic matter in living and dead biomass, soil carbon and fossil fuels. It also drives the carbon cycle, which influences global climate via the greenhouse effect.</p>
+                        </div>
+                        <div>
+                            <h4>Energy flow</h4>
+                            <p>Main article: Energy flow (ecology)
+                               See also: Food web and Trophic level
+                               Energy and carbon enter ecosystems through photosynthesis, are incorporated into living tissue, transferred to other organisms that feed on the living and dead plant matter, and eventually released through respiration.[12] The carbon and energy incorporated into plant tissues (net primary production) is either consumed by animals while the plant is alive, or it remains uneaten when the plant tissue dies and becomes detritus. In terrestrial ecosystems, roughly 90% of the net primary production ends up being broken down by decomposers. The remainder is consumed by animals while still alive and enters the plant-based trophic system.</p>
+                        </div>
+                    </div>
+        		</div>
+          	</div>
+            <div class="spacer-20"></div>
+            <!-- Join us for -->
+            <div class="lgray-bg padding-tb45">
+                <div id="about-join">
+                	<div class="container">
+                        <div class="text-align-center">
+                            <h2>Join us for our Mission</h2>
+                            <hr class="sm">
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6">
+                                <div class="icon-block"><span class="icon label-danger"><i class="fa fa-paw"></i></span>
+                                <h3>To keep wildlife existence</h3>
+                                <p>There are more than 7 billion people on Earth. 
+                                Imagine if every one of us committed to do one thing — no matter how small — to protect wildlife every day. 
+                                Even minor actions can have a major impact when we all work together. 
+                                Here are ways you can make a difference: 1. Adopt , 2. Volunteer , 3. Visit , 4. Donate , 5. Speak Up , 6. Buy Responsibly , 7. Pitch In.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="icon-block"><span class="icon label-default"><i class="fa fa-mortar-board"></i></span>
+                                <h3>To make education for all</h3>
+                                <p>Lifetime success for children in foster care hinges on success in school.
+                                 Courts throughout the country are working with advocates and systems to alter children’s educational paths. 
+                                 Their efforts are improving school outcomes, boosting graduation rates, reducing disciplinary actions,
+                                  increasing college attendance, 
+                                and helping break the cycle of justice system involvement.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="icon-block"><span class="icon label-primary"><i class="fa fa-child"></i></span>
+                                <h3>To help grow Plants</h3>
+                                <p>Like humans and animals, plants need both water and nutrients (food) to survive. 
+                                Most all plants use water to carry moisture and nutrients back and forth between the roots and leaves. 
+                                Water, as well as nutrients, is normally taken up through the roots from the soil. 
+                                This is why it’s important to water plants when the soil becomes dry.
+
+Read more at Gardening Know How: What Makes Plants Grow: Plant Growing Needs https://www.gardeningknowhow.com/special/children/how-plants-grow.htm</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="icon-block"><span class="icon label-info"><i class="fa fa-globe"></i></span>
+                                <h3>To make the planet lively</h3>
+                                <p>Like all living things, plants need energy and water to grow. 
+                                They take in their energy not from food but from sunlight. 
+                                They use this energy to make the food that they need to grow. Plants provide food for animals, 
+                                including us humans. They help keep the air filled with oxygen for us to breathe.
+                                 There are nearly 300,000 species (kinds) of plant. They come in all shapes and sizes, 
+                                 from tiny mosses to enormous trees. Plants are divided into two main kinds: the simpler types without flowers, 
+                                 and those that have flowers.
+                                 The study of plants is called botany.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="icon-block"><span class="icon label-warning"><i class="fa fa-umbrella"></i></span>
+                                <h3>To save the Rain Water</h3>
+                                <p>Farmland Rain Water Harvesting Systems (FLRWHS), founded in 2002, 
+                                aimed at end to end solutions for installations of rainwater harvesting systems including patented products and ongoing R&D.
+
+                                ● Our mission statement is to conserve every drop of rainwater by using continuous innovation.
+                                ● Giving back to nature and reducing our carbon footprint for a greener tomorrow is at the core of everything we do.
+                                ● We are building scientifically engineered systems of Rain Water Harvesting, which will enable customers with economical, high quality and easy to maintain products.
+                               
+                                </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="icon-block"><span class="icon label-success"><i class="fa fa-tree"></i></span>
+                                <h3>To make Forests Greener</h3>
+                                <p>Padma Shri awardee Jadav Payeng, who is also known as the 'The Forest Man of India', is all set to undertake a mission-- to make Mexico greener by replenishing its forests.
+
+
+                                 In December last year, 62-year-old Jadav Payeng signed an agreement with an NGO Fundacion Azteca, 
+                                 to collaborate on environmental projects in Mexico which aims to plant 7 million trees in the North American country.</p>
+                                </div>
+                            </div>
+                        </div>
+                   	</div>
+                </div>
+            </div>
+           <div class="spacer-50"></div>
+           	<!-- Team -->
+          	<div id="about-team">
+                <div class="container">
+                    <h2>Our Team</h2>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="staff-item">
+                                <div class="row">
+                                    <div class="col-md-5 col-sm-6">
+                                    	<img src="{% static 'images/staff-img3my.jpg' %}" alt="" class="img-thumbnail">
+                                    </div>
+                                    <div class="col-md-7 col-sm-6">
+                                    	<h3>David</h3>
+                                    	<span class="meta-data">USA</span>
+                                        {% comment %} <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> {% endcomment %}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="staff-item">
+                                <div class="row">
+                                    <div class="col-md-5 col-sm-6">
+                                    	<img src="{% static 'images/staff-img1my.jpg' %}" alt="" class="img-thumbnail">
+                                    </div>
+                                    <div class="col-md-7 col-sm-6">
+                                    	<h3>Madric Putin</h3>
+                                    	<span class="meta-data">Russia</span>
+                                        {% comment %} <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> {% endcomment %}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="staff-item">
+                                <div class="row">
+                                    <div class="col-md-5 col-sm-6">
+                                    	<img src="{% static 'images/staff-img2my.jpg' %}" alt="" class="img-thumbnail">
+                                    </div>
+                                    <div class="col-md-7 col-sm-6">
+                                    	<h3>Danny Jhon</h3>
+                                    	<span class="meta-data">Isril</span>
+                                        {% comment %} <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> {% endcomment %}
+                                    </div>
+                                </div>
+                            </div>
+                       	</div>
+                        <div class="col-md-4">
+                        	<section class="staff-volunteers">
+                            	<h4>Volunteers 2017-2025</h4>
+                                <ul>
+                                	<li>Bibhudatta Tripathy</li>
+                                	<li>Santosh Nayak</li>
+                                	<li>Sai ss Parida </li>
+                                	<li>Hrusikesh Nayak</li>
+                                	<li>Sibaprasad Behera</li>
+                                	<li>Durga Prasad Panda</li>
+                                	<li>Rajesh Behera</li>
+                                	<li>Banashree Brsha</li>
+                                	<li>Smrutiranjan Sethy</li>
+                                	<li>Rashmi ranjan Dakua</li>
+                                	<li>David</li>
+                                	<li>Lucas johnson</li>
+                                	
+                                </ul>
+                            </section>
+                            <a href="join.html" class="btn btn-primary btn-block btn-lg">Become a Volunteer</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       	</div>
+   	</div>
+    <!-- End Body Content -->
+{% endblock  %}

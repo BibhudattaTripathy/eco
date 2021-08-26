@@ -1,0 +1,389 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Home{% endblock  %}
+{% block content %}
+<!-- Start Hero Slider -->
+        <div class="hero-slider">
+            <div class="slider-rev-cont">
+                <div class="tp-banner-container">
+                    <div class="tp-limited">
+                        <ul>
+                            <!-- SLIDE  -->
+                            <li data-delay="5000" data-masterspeed="600" data-slotamount="7" data-transition="fade">
+                                <!-- MAIN IMAGE -->
+                                <img src="{% static 'images/slide2my.jpg' %}" alt="">
+
+                                <!-- LAYER NR. 1 -->
+                                <!-- <div class="tp-caption customin customout label-danger number-block" data-x="center"
+                                    data-hoffset="-33" data-y="center" data-voffset="-70"
+                                    data-customin="x:0;y:0;z:0;rotationX:0;rotationY:141;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                    data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                    data-start="500" data-speed="600" data-easing="Linear.easeNone" data-endspeed="600"
+                                    data-endeasing="Linear.easeNone">
+                                </div> -->
+                                <!-- LAYER NR. 2 -->
+                                <!-- <div class="tp-caption customin customout label-danger number-block" data-x="center"
+                                    data-hoffset="33" data-y="center" data-voffset="-70"
+                                    data-customin="x:0;y:0;z:0;rotationX:0;rotationY:141;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                    data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                    data-start="800" data-speed="600" data-easing="Linear.easeNone" data-endspeed="600"
+                                    data-endeasing="Linear.easeNone">
+                                </div> -->
+                                <!-- LAYER NR. 3 -->
+                                 <div class="tp-caption text-align-center h2 sfr whiter tp-resizeme" data-x="center"
+                                    data-hoffset="0" data-y="center" data-voffset="55" data-speed="600"
+                                    data-start="1800" data-easing="Back.easeInOut" data-endspeed="300" style="color: rgb(10, 206, 69);">
+                                    <br><i>WELLCOME TO ECOSYSTEM</i>
+                                </div>
+                                <!-- LAYER NR. 4 -->
+                                <!-- <div class="tp-caption fade whiter tp-resizeme" data-x="center" data-hoffset="0"
+                                    data-y="center" data-voffset="155" data-speed="1000" data-start="2800"
+                                    data-easing="Back.easeInOut" data-endspeed="300">
+                                    <a href="join.html" class="btn btn-lg btn-default">Save them</a>
+                                </div> -->
+                            </li>
+                            <!-- SLIDE  -->
+                            <li data-delay="5000" data-masterspeed="600" data-slotamount="7" data-transition="fade">
+                                <!-- MAIN IMAGE -->
+                                <img src="{% static 'images/slide1my.jpg' %}" alt="">
+                                <!-- LAYER NR. 1 -->
+                                <div class="tp-caption sfr whiter h4 tp-resizeme" data-x="right" data-hoffset="-15"
+                                    data-y="center" data-voffset="-80" data-speed="1000" data-start="500"
+                                    data-easing="Back.easeInOut" data-endspeed="300">
+                                    Green
+                                </div>
+                                <!-- LAYER NR. 2 -->
+                                <div class="tp-caption sfr whiter h2 tp-resizeme" data-x="right" data-hoffset="-20"
+                                    data-y="center" data-voffset="-40" data-speed="1000" data-start="600"
+                                    data-easing="Back.easeInOut" data-endspeed="300">
+                                    is the power
+                                </div>
+                                <!-- LAYER NR. 3 -->
+                                <div class="tp-caption customin whiter customout tp-resizeme" data-x="right"
+                                    data-hoffset="-20" data-y="center" data-voffset="20"
+                                    data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:100% 50%;"
+                                    data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                    data-start="1100" data-speed="600" data-easing="Linear.easeNone" data-endspeed="600"
+                                    data-endeasing="Linear.easeNone">
+                                    <hr class="md">
+                                </div>
+                                <!-- LAYER NR. 4 -->
+                                <div class="tp-caption sfr whiter para text-align-right tp-resizeme" data-x="right"
+                                    data-hoffset="-20" data-y="center" data-voffset="80" data-speed="1400"
+                                    data-start="1000" data-easing="Back.easeInOut" data-endspeed="300">
+                                    “The most dangerous worldview is the worldview of those have not viewed the world.”<br>“There is a deep interconnectedness of all life on earth,
+                                     from the tiniest organisms, to the largest ecosystems, and absolutely between each person.”<br>“That's it on the maps; nature doesn't acknowledge frontiers. Neither can ecology... Where to begin to understand what we've only got a computerspeak label for, ecosystem? Where to decide it begins.”
+                                </div>
+                                <!-- LAYER NR. 5 -->
+                                <div class="tp-caption sfr whiter tp-resizeme" data-x="right" data-hoffset="-20"
+                                    data-y="center" data-voffset="160" data-speed="1000" data-start="1800"
+                                    data-easing="Back.easeInOut" data-endspeed="300">
+                                    <a href="{% url 'contact' %}" class="btn btn-lg btn-default">Support</a>
+                                </div>
+                            </li>
+                            <!-- SLIDE  -->
+                            <li data-delay="5000" data-masterspeed="600" data-slotamount="7" data-transition="fade">
+                                <!-- MAIN IMAGE -->
+                                <img src="{% static 'images/slide3my.jpg' %}" alt="">
+                                <!-- LAYER NR. 1 -->
+                                <div class="tp-caption sfr whiter h4 tp-resizeme" data-x="right" data-hoffset="-15"
+                                    data-y="center" data-voffset="-80" data-speed="1000" data-start="500"
+                                    data-easing="Back.easeInOut" data-endspeed="300">
+                                    Nature
+                                </div>
+                                <!-- LAYER NR. 2 -->
+                                <div class="tp-caption sfr whiter h2 tp-resizeme" data-x="right" data-hoffset="-20"
+                                    data-y="center" data-voffset="-40" data-speed="1000" data-start="600"
+                                    data-easing="Back.easeInOut" data-endspeed="300">
+                                    for everyone
+                                </div>
+                                <!-- LAYER NR. 3 -->
+                                <div class="tp-caption customin whiter customout tp-resizeme" data-x="right"
+                                    data-hoffset="-20" data-y="center" data-voffset="20"
+                                    data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:100% 50%;"
+                                    data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                    data-start="1100" data-speed="600" data-easing="Linear.easeNone" data-endspeed="600"
+                                    data-endeasing="Linear.easeNone">
+                                    <hr class="md">
+                                </div>
+                                <!-- LAYER NR. 4 -->
+                                <div class="tp-caption sfr whiter para text-align-right tp-resizeme" data-x="right"
+                                    data-hoffset="-20" data-y="center" data-voffset="80" data-speed="1400"
+                                    data-start="1000" data-easing="Back.easeInOut" data-endspeed="300">
+                                    Heaven is under our feet as well as over our heads. <br> Look deep into nature, 
+                                    and then you will understand everything better.
+                                </div>
+                                <!-- LAYER NR. 5 -->
+                                <div class="tp-caption sfr whiter tp-resizeme" data-x="right" data-hoffset="-20"
+                                    data-y="center" data-voffset="160" data-speed="1000" data-start="1800"
+                                    data-easing="Back.easeInOut" data-endspeed="300">
+                                    <a href="{% url 'contact' %}" class="btn btn-lg btn-default">Join</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Hero Slider -->
+        <div class="double-border"></div>
+        <!-- Start Lead Block -->
+        <div class="lead-block">
+            <div class="container">
+                <div class="tabs">
+                    <div class="nav-tabs-bar">
+                        <ul class="nav nav-tabs" style="background-color: blue;">
+                            <li class="active"> <a data-toggle="tab" href="#sampletab1">Our Mission</a> </li>
+                            <li> <a data-toggle="tab" href="#sampletab2">Why you should join us</a> </li>
+                        </ul>
+                        <a href="{% url 'about' %}" class="pull-right">more about us <i class="fa fa-angle-right"></i></a>
+                    </div>
+                    <div class="tab-content">
+                        <div id="sampletab1" class="tab-pane active">
+                            <div class="row">
+                                <div class="col-md-8 col-sm-8">
+                                    <p class="lead"> “The most dangerous worldview is the worldview of those have not viewed the world.”<br>“There is a deep interconnectedness of all life on earth,
+                                        from the tiniest organisms, to the largest ecosystems, and absolutely between each person.”<br>“That's it on the maps; nature doesn't acknowledge frontiers. Neither can ecology... Where to begin to understand what we've only got a computerspeak label for, ecosystem? Where to decide it begins.”</p>
+                                    <hr class="md">
+                                    <div class="clearfix"></div>
+                                    {% comment %} <a href="#" class="btn btn-lg btn-primary"><i class="fa fa-cloud-download"></i>
+                                        Download Brochure</a> {% endcomment %}
+                                </div>
+                                <div class="col-md-4 col-sm-4 hidden-xs" data-appear-animation="fadeIn"
+                                    data-appear-animation-delay="1">
+                                    <img src="{% static 'images/img_mission.jpg' %}" alt="" style="margin-top:-40px">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="sampletab2" class="tab-pane">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="icon-block"><span class="icon label-info"><i
+                                                class="fa fa-globe"></i></span>
+                                        <h2>To make the planet lively</h2>
+                                        <p>One in 200 stars has habitable Earth-like planets surrounding it - in the galaxy, half a billion stars have Earth-like planets going around them - that's huge, half a billion. So when we look at the night sky, it makes sense that someone is looking back at us.
+                                            Read more at https://www.brainyquote.com/topics/habitable-quotes
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="icon-block"><span class="icon label-warning"><i
+                                                class="fa fa-umbrella"></i></span>
+                                        <h2>To save the Rain Water</h2>
+                                        <p>Don’t be conserve but conserve the rain water.
+                                            Don’t let rain water run away, let it run to the earth again.
+                                            Don’t make earth devoid of water, just save rain water.
+                                            Don’t waste even a drop of water, make earth rich of water.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="icon-block"><span class="icon label-success"><i
+                                                class="fa fa-tree"></i></span>
+                                        <h2>To make Forests Greener</h2>
+                                        <p>“A grove of giant redwoods or sequoias should be kept just as we keep a great or beautiful cathedral.”
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="text-align-center">
+                                    <div class="spacer-20"></div>
+                                    <a href="{% url 'contact' %}" class="btn btn-primary btn-lg secondary-color-bg">Join now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Lead Block -->
+        <!-- Start Content -->
+        <div class="main" role="main">
+            <div id="content" class="content full">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 border-col">
+                            <!-- Latest Posts -->
+                            <div class="latest-posts">
+                                <h3 class="title"><i class="fa fa-folder"></i> &nbsp;Latest Posts</h3>
+                                <ul class="posts-listing">
+                                    <li class="post-list-item format-standard">
+                                        <div class="row">
+                                            <div class="col-md-5 col-sm-6" data-appear-animation="fadeInLeft"
+                                                data-appear-animation-delay="1">
+                                                <a href="blog-post.html" class="media-box"><img
+                                                        src="{% static 'images/post-img1my.jpg' %}" alt=""
+                                                        class="img-thumbnail post-thumb"></a>
+                                            </div>
+                                            <div class="col-md-7 col-sm-6">
+                                                <h3 class="post-title"><a href="blog-post.html">Borneo orangutan</a>
+                                                </h3>
+                                                <span class="post-time meta-data">Wed 25th July, 21</span>
+                                                <p class="post-excerpt">Orangutans are great apes native to the rainforests of Indonesia and Malaysia.
+                                                 They are now found only in parts of Borneo and Sumatra, but during the Pleistocene they ranged throughout Southeast Asia and South China. 
+                                                 Classified in the genus Pongo, 
+                                                orangutans were originally considered to be one species.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="post-list-item format-standard">
+                                        <div class="row">
+                                            <div class="col-md-5 col-sm-6" data-appear-animation="fadeInLeft"
+                                                data-appear-animation-delay="1">
+                                                <a href="blog-post.html" class="media-box"><img
+                                                        src="{% static 'images/post-img2my.jpg' %}" alt=""
+                                                        class="img-thumbnail post-thumb"></a>
+                                            </div>
+                                            <div class="col-md-7 col-sm-6">
+                                                <h3 class="post-title"><a href="blog-post.html">Mountains of Peru</a></h3>
+                                                <span class="post-time meta-data">Sun 25th July, 21</span>
+                                                <p class="post-excerpt">The central Andes are the tallest and steepest part of the mountain range,
+                                                 home to Mount Huascarán, at 6,768 metres above sea level, Peru's highest peak.
+                                                  The southern Andes are also known as the altiplano or high plateau. 
+                                                The northern Andes are the lowest part of this region.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                {% comment %} <a href="blog.html" class="btn toblog btn-default pull-right">Visit Blog</a> {% endcomment %}
+                            </div>
+                        </div>
+                        <!-- Sidebar -->
+                        <div class="col-md-4 sidebar right-sidebar">
+                            <div class="widget sidebar-widget upcoming-events-widget">
+                                <h3 class="title widgettitle"><i class="fa fa-calendar"></i> &nbsp;Upcoming Events</h3>
+                                <ul class="upcoming-events">
+                                    <li data-appear-animation="fadeInRight" data-appear-animation-delay="1">
+                                        <img src="{% static 'images/event_small_thumb1my.jpg' %}" alt=""
+                                            class="img-thumbnail event-thumb">
+                                        <span class="event-date">
+                                            <span class="day">15</span>
+                                            <span class="monthyear">Aug, 21</span>
+                                        </span>
+                                        <div class="event-excerpt">
+                                            <div class="event-cats meta-data"><a href="event-grid.html">Days</a></div>
+                                            <h5 class="event-title"><a href="single-event.html">Indian Day</a></h5>
+                                            <p class="event-location"><i class="fa fa-map-marker"></i> Bhubaneswar
+                                                700523, Odisha</p>
+                                        </div>
+                                    </li>
+                                    <li data-appear-animation="fadeInRight" data-appear-animation-delay="1">
+                                        <img src="{% static 'images/event_small_thumb2my.jpg' %}" alt=""
+                                            class="img-thumbnail event-thumb">
+                                        <span class="event-date">
+                                            <span class="day">25</span>
+                                            <span class="monthyear">Aug, 21</span>
+                                        </span>
+                                        <div class="event-excerpt">
+                                            <div class="event-cats meta-data"><a href="event-grid.html">Volunteers</a>
+                                            </div>
+                                            <h5 class="event-title"><a href="single-event.html">National Volunteer
+                                                    Month</a></h5>
+                                            <p class="event-location"><i class="fa fa-map-marker"></i> Cuttack,Odisha</p>
+                                        </div>
+                                    </li>
+                                    <li data-appear-animation="fadeInRight" data-appear-animation-delay="1">
+                                        <img src="{% static 'images/event_small_thumb3my.jpg' %}" alt=""
+                                            class="img-thumbnail event-thumb">
+                                        <span class="event-date">
+                                            <span class="day">25</span>
+                                            <span class="monthyear">Aug, 21</span>
+                                        </span>
+                                        <div class="event-excerpt">
+                                            <div class="event-cats meta-data"><a href="event-grid.html">Volunteers</a>
+                                            </div>
+                                            <h5 class="event-title"><a href="single-event.html">Make a new move</a>
+                                            </h5>
+                                            <p class="event-location"><i class="fa fa-map-marker"></i> Cuttack,
+                                                Odisha</p>
+                                        </div>
+                                    </li>
+                                    <li data-appear-animation="fadeInRight" data-appear-animation-delay="1">
+                                        <img src="{% static 'images/event_small_thumb4my.jpg' %}" alt=""
+                                            class="img-thumbnail event-thumb">
+                                        <span class="event-date">
+                                            <span class="day">25</span>
+                                            <span class="monthyear">Aug, 21</span>
+                                        </span>
+                                        <div class="event-excerpt">
+                                            <div class="event-cats meta-data"><a href="event-grid.html">India</a></div>
+                                            <h5 class="event-title"><a href="single-event.html">India's park day</a>
+                                            </h5>
+                                            <p class="event-location"><i class="fa fa-map-marker"></i> BBSR,
+                                                Odisha</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                {% comment %} <div class="upcoming-events-footer">
+                                    <hr class="sm">
+                                    <a href="events.html"> events</a>
+                                </div> {% endcomment %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Our Partners -->
+        <div class="our-partners">
+            <div class="container">
+                <h2 class="title"><small>Mission</small>Partners</h2>
+                <div class="row">
+                    <div class="col-md-3">
+                        <p class="margin-0">"Alone we can do so little; together we can do so much."
+                        </p>
+                    </div>
+                    <div class="col-md-9" >
+                        <ul class="partner-logos">
+                            <li data-appear-animation="fadeInDown" data-appear-animation-delay="10" ><img
+                                    src="{% static 'images/plogo1.png' %}" alt=""></li>
+                            <li data-appear-animation="fadeInDownmy" data-appear-animation-delay="100"><img
+                                    src="{% static 'images/plogo2.png' %}" alt=""></li>
+                            <li data-appear-animation="fadeInDown" data-appear-animation-delay="200"><img
+                                    src="{% static 'images/plogo3.png' %}" alt=""></li>
+                            <li data-appear-animation="fadeInDown" data-appear-animation-delay="300"><img
+                                    src="{% static 'images/plogo4.png' %}" alt=""></li>
+                            <li data-appear-animation="fadeInDown" data-appear-animation-delay="400"><img
+                                    src="{% static 'images/plogo5.png' %}" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Start Featured Projects -->
+        <div class="featured-projects">
+            <div class="container">
+                <a href="projects.html" class="btn toblog btn-default pull-right">All Projects</a>
+                <h2><small>Featured</small> Projects</h2>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 format-standard">
+                        <a href="single-project.html" class="featured-project-block media-box">
+                            <img src="{% static 'images/project1my.jpg' %}" alt="" class="featured-image">
+                            <span class="project-overlay">
+                                <span class="project-title">Life in the oceans </span>
+                                <span class="project-cat">Oceans</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-4 format-standard">
+                        <a href="single-project.html" class="featured-project-block media-box">
+                            <img src="{% static 'images/project12my.jpg' %}" alt="" class="featured-image">
+                            <span class="project-overlay">
+                                <span class="project-title">We will miss them</span>
+                                <span class="project-cat">Forests</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-4 format-standard">
+                        <a href="single-project.html" class="featured-project-block media-box">
+                            <img src="{% static 'images/project3my.jpg' %}" alt="" class="featured-image">
+                            <span class="project-overlay">
+                                <span class="project-title">How to feed the world</span>
+                                <span class="project-cat">Food</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Featured Projects -->
+{% endblock  %}

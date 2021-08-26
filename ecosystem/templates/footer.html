@@ -1,0 +1,44 @@
+{% load static %}
+  <!-- Start Footer -->
+        <footer class="site-footer site-top-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 footer-widget widget text_widget">
+                        <h4 class="widgettitle">Meaning of this  project</h4>
+                        <p>To Protect Our Ecosystem , Because If We Don't Do Any-thing Today ,
+                        Their Will Be No Tomorrow </p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 footer-widget widget instafeed_widget">
+                        <h4 class="widgettitle">Instagram Gallery</h4>
+                        <ul id="insta-widget" class="clearfix"></ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 footer-widget widget twitter_widget">
+                        <h4 class="widgettitle">Twitter Feeds</h4>
+                        <div class="twitter-widget" data-tweets-count="1"></div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 footer-widget widget text_widget">
+                        <h4 class="widgettitle">Our Location</h4>
+                        <p>State-Odisha,Town-BBSR,PIN-700122(INDIA)</p>
+                        <p><strong>Contact</strong><br><a href="mailto:help@gaea.org">bibhudattatripathy@gmail.com</a><br>8249256291</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <footer class="site-footer site-bottom-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4">
+                        <p>GVIT 2021-WebApp</p>
+                    </div>
+                    <div class="col-md-8 col-sm-8">
+                        <ul class="footer-nav">
+                            <li><a href="{% url 'index' %}">Home</a></li>
+                            <li><a href="{% url 'about' %}">About</a></li>
+                            <li><a href="{% url 'contact' %}">Contact</a></li>
+                            {% comment %} <li><a href="{% url 'donate' %}">Donate</a></li> {% endcomment %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
